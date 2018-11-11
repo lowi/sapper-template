@@ -1,3 +1,8 @@
+# Bug when the component is shared between two routes and they use mix of preload / data
+
+When visiting the route http://localhost:3000/showbug1, it's correctly showing the data "Bug 1".
+After navigating to http://localhost:3000/showbug2 and back to http://localhost:3000/showbug1, "Bug 2" is showing on /showbug1.
+
 # sapper-template
 
 The default [Sapper](https://github.com/sveltejs/sapper) template. To clone it and get started:
